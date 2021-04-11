@@ -3,22 +3,20 @@
     <head>
         <title>About Blake</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="/images/Blake_head.jpg">
     </head>
 
     <body>
-        <div class="hero-image">
-            <div class="hero-text">
                 <h1>Blake Johnson</h1>
             <div id="navbar">
-                <!--got from w3schools-->
+                <!--got idea from w3schools-->
                 <a href="#info">Info</a>
                 <a href="#books">Books</a>
                 <a href="#haiku">Haiku</a>
                 <a href="#interests">Interests</a>
                 <a href="#schedule">Schedule</a>
             </div>
-            <img class="parallax" align="right" src="/images/Blake.jpg">
-        </div>
+            <img id="pic" class="parallax" align="right" src="/images/Blake.jpg">
         <h2>&nbsp;</h2>
 
         <h2 id="info">Personal Info:</h2>
@@ -64,18 +62,18 @@
         <table border=1 cellspacing=3 cellpadding=3>
             <tr>
                 <th></th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
+                <th class="day">Monday</th>
+                <th class="day">Tuesday</th>
+                <th class="day">Wednesday</th>
+                <th class="day">Thursday</th>
+                <th class="day">Friday</th>
             </tr>
             <tr>
                 <td>1:00</td>
-                <td rowspan=3>CS 2550 (Web Programming I)</td>
-                <td rowspan=2>Institute</td>
-                <td rowspan=3>CS 2550 (Web Programming I)</td>
-                <td rowspan=2>Institute</td>
+                <td rowspan=3 class="cs2550">CS 2550 (Web Programming I)</td>
+                <td rowspan=2 class="inst">Institute</td>
+                <td rowspan=3 class="cs2550">CS 2550 (Web Programming I)</td>
+                <td rowspan=2 class="inst">Institute</td>
                 <td></td>
             </tr>
             <tr>
@@ -85,7 +83,7 @@
             <tr>
                 <td>2:00</td>
                 <td></td>
-                <td rowspan=5>PES 1130 (Golf)</td>
+                <td rowspan=5 class="golf">PES 1130 (Golf)</td>
                 <td></td>
             </tr>
             <tr>
@@ -97,9 +95,9 @@
             </tr>
             <tr>
                 <td>3:00</td>
-                <td rowspan=2>COMM 1020 (Public Speaking)</td>
+                <td rowspan=2 class="comm">COMM 1020 (Public Speaking)</td>
                 <td></td>
-                <td rowspan=2>COMM 1020 (Public Speaking)</td>
+                <td rowspan=2 class="comm">COMM 1020 (Public Speaking)</td>
                 <td></td>
             </tr>
             <tr>
@@ -141,9 +139,9 @@
             <tr>
                 <td>6:00</td>
                 <td></td>
-                <td rowspan=2>PES 1097 (Fitness for Life)</td>
+                <td rowspan=2 class="fit">PES 1097 (Fitness for Life)</td>
                 <td></td>
-                <td rowspan=2>PES 1097 (Fitness for Life)</td>
+                <td rowspan=2 class="fit">PES 1097 (Fitness for Life)</td>
                 <td></td>
             </tr>
             <tr>
@@ -156,7 +154,7 @@
                 <td>7:00</td>
                 <td></td>
                 <td></td>
-                <td rowspan=2>CS 2420 (Data Structures)</td>
+                <td rowspan=2 class="cs2420">CS 2420 (Data Structures)</td>
                 <td></td>
                 <td></td>
             </tr>
@@ -176,6 +174,6 @@
                 <td></td>
             </tr>
         </table>
-        <footer class="footer">Copyright 2020 -- Blake Johnson</footer>
+        <footer class="footer">Copyright &#169; 2020 -- Blake Johnson</footer>
     </body>
 </html>

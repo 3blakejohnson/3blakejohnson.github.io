@@ -2,4 +2,6 @@
 Styling used:
 CSS3 Web Fonts
 Nav Menu
-Sticky Footer
+Footer
+Style weekly schedule
+Add a broswer tab icon ("favicon")

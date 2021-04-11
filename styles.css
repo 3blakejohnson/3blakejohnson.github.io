@@ -7,39 +7,6 @@ h1, h2 {
     font-family: "georgia", sans-serif;
 }
 
-.hero-image {
-    /* Found from w3schools.com/howto/howto_css_hero_image.asp */
-    /*mask-image: linear-gradient(rgba(0,0,0.5), rgba(0,0,0,0.5)), url(../images/Blake.jpg);
-    height: 50%;
-    background-position: center;
-    background-position: no-repeat;
-    background-size: cover;
-    position: relative;*/
-}
-
-/*.hero-text {
-    text-align: top;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}*/
-
-.parallax {
-    /* The image used */
-    background-image: url(../images/Blake.jpg);
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   #navbar a {
       float: left;
       display: block;
@@ -54,3 +21,37 @@ h1, h2 {
       background-color: #6b4cf5;
       color: #f2f2f2;
   }
+
+  th.day {
+      width: 19%;
+  }
+
+  td.cs2550 {
+      background-color: rgb(255, 121, 121); 
+      color: black;
+  }
+
+  td.inst {
+    background-color: rgb(121, 246, 255); 
+    color: black;
+}
+
+td.golf {
+    background-color: rgb(55, 255, 15); 
+    color: black;
+}
+
+td.comm {
+    background-color: rgb(253, 255, 121); 
+    color: black;
+}
+
+td.fit {
+    background-color: rgb(255, 121, 237); 
+    color: black;
+}
+
+td.cs2420 {
+    background-color: rgb(104, 104, 104); 
+    color: white;
+}
