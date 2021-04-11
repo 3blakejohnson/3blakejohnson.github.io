@@ -1,3 +1,56 @@
-table {
-    
+body {
+    font-family: sans-serif;
+    height:100%;
 }
+
+h1, h2 {
+    font-family: "georgia", sans-serif;
+}
+
+.hero-image {
+    /* Found from w3schools.com/howto/howto_css_hero_image.asp */
+    /*mask-image: linear-gradient(rgba(0,0,0.5), rgba(0,0,0,0.5)), url(../images/Blake.jpg);
+    height: 50%;
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover;
+    position: relative;*/
+}
+
+/*.hero-text {
+    text-align: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}*/
+
+.parallax {
+    /* The image used */
+    background-image: url(../images/Blake.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #navbar a {
+      float: left;
+      display: block;
+      background-color: #6b4cf5;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+  }
+
+  .footer {
+      background-color: #6b4cf5;
+      color: #f2f2f2;
+  }

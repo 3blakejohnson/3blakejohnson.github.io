@@ -6,20 +6,30 @@
     </head>
 
     <body>
-        <header>
-            <h1>Blake Johnson</h1>
-            <img src="/images/Blake.jpg">
-        </header>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Blake Johnson</h1>
+            <div id="navbar">
+                <!--got from w3schools-->
+                <a href="#info">Info</a>
+                <a href="#books">Books</a>
+                <a href="#haiku">Haiku</a>
+                <a href="#interests">Interests</a>
+                <a href="#schedule">Schedule</a>
+            </div>
+            <img class="parallax" align="right" src="/images/Blake.jpg">
+        </div>
+        <h2>&nbsp;</h2>
 
-        <h2>Personal Info:</h2>
+        <h2 id="info">Personal Info:</h2>
         <ul>
             <li><strong>Major:</strong> Computer Science</li>
             <li><strong>High School: </strong>Sky View, 2018</li>
             <li><strong>Year in School: </strong>Freshman</li>
-            <li><strong>Favorit Ice Cream: </strong>Banana Caramel</li>
+            <li><strong>Favorite Ice Cream: </strong>Banana Caramel</li>
         </ul>
 
-        <h2>My five favorite books</h2>
+        <h2 id="books">My five favorite books</h2>
         <ul>
             <li><i>Fablehaven,</i> <a href="http://brandonmull.com/">Brandon Mull</a></li>
             <li><i>Harry Potter,</i> <a href="https://www.jkrowling.com/">J.K. Rowling</a></li>
@@ -28,12 +38,12 @@
             <li><i>Michael Vey,</i> <a href="https://www.richardpaulevans.com/">Richard Paul Evans</a></li>
         </ul>
 
-        <h2>My Haiku</h2>
+        <h2 id="haiku">My Haiku</h2>
         <p>This poem is inspired by all my homework</p>
         <p><i>On my computer<br>Writing an essay<br>That I procrastinated for days</i></p>
 
-        <h2>My Personal Interests</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;One of my all-time favorit things to do is to ski. There&#39;s nothing better 
+        <h2 id="interests">My Personal Interests</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;One of my all-time favorite things to do is to ski. There&#39;s nothing better 
             than zooming down a mountain with the cold, crisp air whooshing across your face and past your ears. 
             I started skiing when I was probably around 9 or 10 years old, and have loved it ever since. Whenever I 
             can find a deal on skiing, I jump on it and seize the opportunity.
@@ -50,7 +60,7 @@
             That's when I decided to study Computer Science in College, and now here I am!
         </p>
 
-        <h2>Class Schedule</h2>
+        <h2 id="schedule">Class Schedule</h2>
         <table border=1 cellspacing=3 cellpadding=3>
             <tr>
                 <th></th>
@@ -166,5 +176,6 @@
                 <td></td>
             </tr>
         </table>
+        <footer class="footer">Copyright 2020 -- Blake Johnson</footer>
     </body>
 </html>
